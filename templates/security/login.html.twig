@@ -1,0 +1,72 @@
+{% extends 'base.unauthorized.html.twig' %}
+
+{% block title %}Log in{% endblock %}
+
+{% block body %}
+    <form method="post">
+        {% if error %}
+            <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+        {% endif %}
+        {% if app.user %}
+            <div class="mb-3">
+                You are logged in as {{ app.user.username }}, <a
+                        href="{{ path('app_logout') }}">Logout</a>
+            </div>
+        {% endif %}
+        <div class="row justify-content-center mt-5">
+            <div class="mt-5">
+
+            </div>
+            <div class="col-md-5">
+                <div class="card-group">
+                    <div class="card p-4 bg-dark">
+                        <h5><span class="badge rounded-pill bg-warning text-dark">Movie Meter <i
+                                        class="fas fa-film"></i></span></h5>
+                        <div class="card-body">
+                            <h1 class="text-white">Login</h1>
+                            <p class="text-white">Sign In to your account</p>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text border-5 rounded-0">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                </div>
+                                <input type="email" value="{{ last_username }}" name="email" id="inputEmail"
+                                       class="form-control form-bg-darker-grey border-0" required
+                                       autofocus placeholder="Email">
+                            </div>
+                            <div class="input-group mb-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text border-5 rounded-0"><i class="fa fa-lock"></i></span>
+                                </div>
+                                <input type="password" name="password" id="inputPassword"
+                                       class="form-control form-bg-darker-grey border-0" required
+                                       placeholder="Password">
+                            </div>
+                            <div class="col-12 text-left">
+                                <label class="mb-3 text-muted"><input type="checkbox" name="_remember_me"
+                                                                      checked="checked"> Remember
+                                    me </label>
+                            </div>
+                            <input type="hidden" name="_csrf_token"
+                                   value="{{ csrf_token('authenticate') }}"
+                            >
+                            <div class="row">
+                                <div class="col-6 text-left">
+                                    <button class="btn navbar-button px-4" type="submit">Login</button>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <a href="/forgot-password" class="text-muted"> Forgot password?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+{% endblock %}
+
+
+
+
