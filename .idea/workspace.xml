@@ -11,15 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836a908c-1ad3-44bc-a2f6-7b8b891171f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/base.unauthorized.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profile/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing_page/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing_page/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,9 +178,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/profile" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Symfony projects\movie-meter\templates\profile" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -199,6 +203,11 @@
       <updated>1631951390332</updated>
       <workItem from="1631951392734" duration="13540000" />
       <workItem from="1632040752979" duration="8232000" />
+      <workItem from="1632326113403" duration="8000" />
+      <workItem from="1632327284975" duration="4275000" />
+      <workItem from="1632466722683" duration="391000" />
+      <workItem from="1632467173664" duration="1095000" />
+      <workItem from="1632468835926" duration="2895000" />
     </task>
     <servers />
   </component>
@@ -218,6 +227,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="535" y="197" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1632467055650">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="535" y="197" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1707.920@0.0.1707.920" timestamp="1632467055650" />
+    <state x="635" y="216" key="FileChooserDialogImpl" timestamp="1632326119390">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1632326119390" />
     <state x="1071" y="424" key="NewPhpClassDialog" timestamp="1631961426198">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -230,9 +247,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="937" y="331" key="run.anything.popup/-1920.609.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1631956080897" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1631959996591">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="629" y="207" width="672" height="446" key="search.everywhere.popup" timestamp="1632328226439">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.609.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1631959996591" />
+    <state x="629" y="207" width="672" height="446" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1632328226439" />
   </component>
 </project>

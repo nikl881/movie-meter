@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class LandingPageController extends AbstractController
+class LandingController extends AbstractController
 {
     /**
      * @Route("/", name="landing_page")
@@ -14,7 +14,7 @@ class LandingPageController extends AbstractController
     public function index(): Response
     {
         return $this->render('landing_page/show.html.twig', [
-            'controller_name' => 'LandingPageController',
+            'controller_name' => 'LandingController',
         ]);
     }
 }
