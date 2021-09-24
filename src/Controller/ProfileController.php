@@ -15,7 +15,7 @@ class ProfileController extends AbstractController
     {
         $user = $this->getUser();
 
-        return $this->render('profile/showx.html.twig', [
+        return $this->render('profile/show.html.twig', [
             'controller_name' => 'ProfileController',
             'user' => $user,
         ]);
@@ -30,7 +30,7 @@ class ProfileController extends AbstractController
     }
 
     /**
-     * @Route("/user-details", name="user_details")
+     * @Route("/profile/user-details", name="user_details")
      */
     public function details(): Response
     {
