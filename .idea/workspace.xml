@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="836a908c-1ad3-44bc-a2f6-7b8b891171f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile/showx.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,8 @@
       <workItem from="1632327284975" duration="4275000" />
       <workItem from="1632466722683" duration="391000" />
       <workItem from="1632467173664" duration="1095000" />
-      <workItem from="1632468835926" duration="3968000" />
+      <workItem from="1632468835926" duration="4627000" />
+      <workItem from="1632558115350" duration="2308000" />
     </task>
     <servers />
   </component>
@@ -247,10 +248,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="937" y="331" key="run.anything.popup/-1920.609.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1631956080897" />
-    <state x="629" y="207" width="672" height="446" key="search.everywhere.popup" timestamp="1632473324964">
+    <state x="629" y="207" width="672" height="446" key="search.everywhere.popup" timestamp="1632559920050">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.609.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1631959996591" />
-    <state x="629" y="207" width="672" height="446" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1632473324964" />
+    <state x="629" y="207" width="672" height="446" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1632559920050" />
   </component>
 </project>
